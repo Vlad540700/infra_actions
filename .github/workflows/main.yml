@@ -54,7 +54,7 @@ jobs:
         # Запуск скрипта авторизации на Docker Hub
         uses: docker/login-action@v1 
         with:
-          username: VladislavRybnikov
+          username: vladislavrybnikov
           password: Vlad540799
       - name: Push to Docker Hub
         # Пуш образа в Docker Hub 
