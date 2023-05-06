@@ -72,7 +72,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE0rLmONeDd1IsMZGIiB8MHGohovkfziZz8kRIi9R3+S
+        key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
 
         script: |
